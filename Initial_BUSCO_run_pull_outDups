@@ -19,6 +19,7 @@ mv tetrapoda.config.ini config.ini
 
 export AUGUSTUS_CONFIG_PATH="/mnt/lustre/macmaneslab/tml1019/seniorThesis/config"
 
+#run BUSCO on Ranitomeya_imitator_genome found in /mnt/lustre/macmaneslab/shared/Stuckert/Stuckert_Ranitomeya_imitator_genome/imitator.1.3.6.fa
 busco -i /mnt/lustre/macmaneslab/shared/Stuckert/Stuckert_Ranitomeya_imitator_genome/imitator.1.3.6.fa -m geno --cpu 40 -o Ranitomeya_imitator_genome_BUSCO
 
 
