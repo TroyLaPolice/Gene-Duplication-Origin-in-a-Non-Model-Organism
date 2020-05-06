@@ -1,4 +1,6 @@
-# Methods for the initial exploratory phase
+# Methods
+
+### Initial Exploratory Phase
 
 Use the Ranitomeya imitator genome found at: 
        
