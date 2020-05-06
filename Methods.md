@@ -12,10 +12,15 @@ Open CSV in Excel
 
 Add the column headers in the file as such: 
 
-    # (These mirror the BUSCO column headers)
+    # These mirror the BUSCO column headers
 
     BUSCO ID    Status    Scaffold    Start    End    Score    Length
 
+Delete string characters around each of the numbers in the saffold column.
 
+    Find and replace ->  "scaffold" replace with nothing
+    Find and replace ->  "_pilon_pilon" replace with nothing
+    
+    #This leaves behind only the numbers which I can work with
 
 
