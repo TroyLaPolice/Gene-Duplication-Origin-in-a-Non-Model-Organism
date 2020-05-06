@@ -29,6 +29,6 @@ Delete string characters around each of the numbers in the saffold column.
     
 Use R to determine statistics about the dataset
 
-    See the script:   initial_R_dataAnalysisAndFigures.R 
+    See the script: initial_R_dataAnalysisAndFigures.R 
 
 
