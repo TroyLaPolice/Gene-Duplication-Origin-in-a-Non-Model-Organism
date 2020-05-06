@@ -12,7 +12,7 @@ Open CSV in Excel
 
 Add the column headers in the file as such: 
 
-    (These mirror the BUSCO column headers)
+    # (These mirror the BUSCO column headers)
 
     BUSCO ID    Status    Scaffold    Start    End    Score    Length
 
