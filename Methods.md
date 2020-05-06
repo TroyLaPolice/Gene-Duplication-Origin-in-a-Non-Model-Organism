@@ -9,7 +9,10 @@ Pull out only the duplicated genes from the full summary table and concatinate t
     grep "Duplicated" full_table_Ranitomeya_imitator_genome_BUSCO.tsv > duplicated_files.csv
 
 Open CSV in Excel
-Edit the column headers in the file as such:
+
+Add the column headers in the file as such: 
+
+    (These mirror the BUSCO column headers)
 
     BUSCO ID    Status    Scaffold    Start    End    Score    Length
 
