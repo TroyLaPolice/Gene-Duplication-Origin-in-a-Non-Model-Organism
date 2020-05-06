@@ -25,6 +25,10 @@ Delete string characters around each of the numbers in the saffold column.
     Find and replace ->  "scaffold" replace with nothing
     Find and replace ->  "_pilon_pilon" replace with nothing
     
-    #This leaves behind only the numbers which I can work with
+    #This leaves behind only the numbers which I can work with in R
+    
+Use R to determine statistics about the dataset
+
+    See the script:   initial_R_dataAnalysisAndFigures.R 
 
 
