@@ -1,6 +1,4 @@
-# Gene-Duplication-Origin-in-a-Non-Model-Organism
-
-# Mehtods for the initial exploritory phase
+# Methods for the initial exploratory phase
 
 First step in the process is to run BUSCO on the genome and view the {full_table_Ranitomeya_imitator_genome_BUSCO.tsv} file to pull out gene duplications.
 
@@ -13,7 +11,7 @@ Pull out only the duplicated genes from the full summary table and concatinate t
 Open CSV in Excel
 Edit the column headers in the file as such:
 
-    Busco id    Status    Scaffold    Start    End    Score    Length
+    BUSCO ID    Status    Scaffold    Start    End    Score    Length
 
 
 
