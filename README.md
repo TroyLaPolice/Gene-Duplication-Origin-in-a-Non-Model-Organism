@@ -1,5 +1,5 @@
 # Gene-Duplication-Origin-in-a-Non-Model-Organism
-UNH Honors Senior Thesis
+    UNH Honors Senior Thesis
 
   Amphibian genomes are notoriously difficult to assemble because of their extremely large size and repetitive content. For this project, I will examine the origin of the repetitive content found in these genomes using the non-model organism, the poison frog Ranitomeya imitator. This study is important because it can help to resolve either the evolutionary history of these bloated genomes or serve to highlight whether the duplicate content found arises from inaccuracies related to the inability of the genome assembly software to process the non-model genomes.
   
