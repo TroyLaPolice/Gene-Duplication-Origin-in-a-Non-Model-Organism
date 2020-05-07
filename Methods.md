@@ -2,7 +2,7 @@
 
 ### Initial Exploratory Phase
 
-#### Acquire the genome
+##### Acquire the genome
 Use the Ranitomeya imitator genome found at: 
        
     /mnt/lustre/macmaneslab/shared/Stuckert/Stuckert_Ranitomeya_imitator_genome
