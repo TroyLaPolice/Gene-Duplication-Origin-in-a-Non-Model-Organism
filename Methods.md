@@ -91,4 +91,4 @@ Command:
 
 See the ID file (bed): id_file.tsv (Below)
     
-[id_file.tsv]( )
+[id_file.tsv](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/id_file.tsv)
