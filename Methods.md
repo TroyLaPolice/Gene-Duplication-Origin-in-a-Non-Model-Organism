@@ -52,6 +52,9 @@ Sampled a gene that was duplicated twice on scaffolds that were far apart in ter
        
        awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' imitator.1.3.6.fa > unwrapped_imitator.1.3.6.fa
        
+       ****************************************************************************************************************************************
+This was used to align an entire scaffold which is largely impractical. Don't need to do this, can just pull out the region of interest
+****************************************************************************************************************************************
        # I pulled out each of the scafold chunks and put them into their own files
        
        grep "scaffold9_pilon_pilon" -A1 unwrapped_imitator.1.3.6.fa > scaffold9_pilon_pilon.fa
@@ -66,3 +69,19 @@ Take this file and test run a MAFFT alignment
     See the script: MAFFTtrial.sh (Below)
     
 [MAFFTtrial.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/MAFFTtrial.sh)
+
+****************************************************************************************************************************************
+I did it again but this time with only the portion of the scaffold that was of interest
+****************************************************************************************************************************************
+
+Need to load linuxbrew/colsa so I can use bedtools [getfasta](https://bedtools.readthedocs.io/en/latest/content/tools/getfasta.html) function
+
+       bedtools getfasta will extract the sequence defined by the coordinates in a BED interval and create a new FASTA entry in the output file for each extracted sequence. By default, the FASTA header for each extracted sequence will be formatted as follows: “<chrom>:<start>-<end>”.
+       
+Command:
+
+       bedtools getfasta -fi unwrapped_imitator.1.3.6.fa -fo regions_of_interestTEST.fa -bed id_file.tsv
+       
+       -fo	Specify an output file name. By default, output goes to stdout.
+       -fi    Input fasta file, i used the unwrapped genome
+       -bed   ID file that is required. For this I pulled out the given beginning and ending coordinates of the gene of interest
