@@ -88,3 +88,7 @@ Command:
        -fo	Specify an output file name. By default, output goes to stdout.
        -fi    Input fasta file, i used the unwrapped genome
        -bed   ID file that is required. For this I pulled out the given beginning and ending coordinates of the gene of interest
+
+See the ID file (bed): id_file.tsv (Below)
+    
+[id_file.tsv]( )
