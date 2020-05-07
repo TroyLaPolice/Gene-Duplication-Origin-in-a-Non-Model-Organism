@@ -7,7 +7,7 @@ Use the Ranitomeya imitator genome found at:
        
     /mnt/lustre/macmaneslab/shared/Stuckert/Stuckert_Ranitomeya_imitator_genome
 
-#### Find Duplicates
+##### Find Duplicates
 
 Run BUSCO on the genome and view the {full_table_Ranitomeya_imitator_genome_BUSCO.tsv} file to pull out gene duplications.
 
@@ -17,7 +17,7 @@ Pull out only the duplicated genes from the full summary table and concatinate t
     
     grep "Duplicated" full_table_Ranitomeya_imitator_genome_BUSCO.tsv > duplicated_files.csv
 
-#### Preliminary Analysis
+##### Preliminary Analysis
 
 Open CSV in Excel
 
