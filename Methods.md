@@ -60,3 +60,9 @@ Sampled a gene that was duplicated twice on scaffolds that were far apart in ter
        # I cat them together
        
        cat scaffold6848_pilon_pilon.fa scaffold9_pilon_pilon.fa > MAFFTtrial.fa
+       
+Take this file and test run a MAFFT alignment
+
+    See the script: initial_R_dataAnalysisAndFigures.R (Below)
+    
+[MAFFTtrial.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/MAFFTtrial.sh)
