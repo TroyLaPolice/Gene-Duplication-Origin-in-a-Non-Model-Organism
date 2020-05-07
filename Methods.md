@@ -41,4 +41,4 @@ Use R to determine statistics about the dataset
     
 [initial_R_dataAnalysisAndFigures.R](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/initial_R_dataAnalysisAndFigures.R)
 
-
+###### Acquire the genome
