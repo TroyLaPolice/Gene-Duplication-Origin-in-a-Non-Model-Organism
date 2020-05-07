@@ -52,4 +52,11 @@ Sampled a gene that was duplicated twice on scaffolds that were far apart in ter
        
        awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' imitator.1.3.6.fa > unwrapped_imitator.1.3.6.fa
        
+       # I pulled out each of the scafold chunks and put them into their own files
        
+       grep "scaffold9_pilon_pilon" -A1 unwrapped_imitator.1.3.6.fa > scaffold9_pilon_pilon.fa
+       grep "scaffold6848_pilon_pilon" -A1 unwrapped_imitator.1.3.6.fa> scaffold6848_pilon_pilon.fa
+       
+       # I cat them together
+       
+       cat scaffold6848_pilon_pilon.fa scaffold9_pilon_pilon.fa > MAFFTtrial.fa
