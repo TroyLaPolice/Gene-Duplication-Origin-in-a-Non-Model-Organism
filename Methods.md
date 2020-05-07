@@ -54,7 +54,7 @@ Sampled a gene that was duplicated twice on scaffolds that were far apart in ter
        
      
 ________________________________________________________________________________________________________________________________________
-This was used to align an entire scaffold which is largely impractical. Don't need to do this, can just pull out the region of interest
+**_This was used to align an entire scaffold which is largely impractical. Don't need to do this, can just pull out the region of interest_**
 
        # I pulled out each of the scafold chunks and put them into their own files
        
@@ -71,9 +71,8 @@ Take this file and test run a MAFFT alignment
     
 [MAFFTtrial.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/MAFFTtrial.sh)
 
-****************************************************************************************************************************************
-I did it again but this time with only the portion of the scaffold that was of interest
-****************************************************************************************************************************************
+________________________________________________________________________________________________________________________________________
+_**I did it again but this time with only the portion of the scaffold that was of interest_**
 
 Need to load linuxbrew/colsa so I can use bedtools [getfasta](https://bedtools.readthedocs.io/en/latest/content/tools/getfasta.html) function
 
