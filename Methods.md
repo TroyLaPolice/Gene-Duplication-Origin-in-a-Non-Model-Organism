@@ -44,4 +44,9 @@ Use R to determine statistics about the dataset
 ###### Try to do a test alignment with two genes found very far away from eachother
 
 Used the BUSCO ID and Scaffold from the _full_table_Ranitomeya_imitator_genome_BUSCO.tsv_
-Pulled out a gene that was duplicated twice on scaffolds that were far apart in terms of the order they were assembled
+
+Sampled a gene that was duplicated twice on scaffolds that were far apart in terms of the order they were assembled
+
+       # In this case it was on scaffolds 9 and 6848
+       
+       
