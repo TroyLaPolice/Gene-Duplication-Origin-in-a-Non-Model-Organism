@@ -98,4 +98,4 @@ Take the bedtools output fasta file and test run a MAFFT alignment
 
     See the script: MAFFTtest_regions_of_interest.sh (Below)
     
-[MAFFTtest_regions_of_interest.sh]( )
+[MAFFTtest_regions_of_interest.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/MAFFTtest_regions_of_interest.sh)
