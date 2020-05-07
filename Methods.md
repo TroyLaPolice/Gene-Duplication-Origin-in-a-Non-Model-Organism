@@ -41,7 +41,7 @@ Use R to determine statistics about the dataset
     
 [initial_R_dataAnalysisAndFigures.R](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/initial_R_dataAnalysisAndFigures.R)
 
-##### Try to do a test alignment with two genes found very far away from eachother
+##### Try to do a test alignment with two genes found very far away from each other
 
 Used the BUSCO ID and Scaffold from the _full_table_Ranitomeya_imitator_genome_BUSCO.tsv_
 
