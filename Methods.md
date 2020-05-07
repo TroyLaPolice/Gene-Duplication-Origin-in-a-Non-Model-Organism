@@ -76,7 +76,10 @@ ________________________________________________________________________________
 
 Need to load linuxbrew/colsa so I can use bedtools [getfasta](https://bedtools.readthedocs.io/en/latest/content/tools/getfasta.html) function
 
-       bedtools getfasta will extract the sequence defined by the coordinates in a BED interval and create a new FASTA entry in the output file for each extracted sequence. By default, the FASTA header for each extracted sequence will be formatted as follows: “<chrom>:<start>-<end>”.
+       bedtools getfasta will extract the sequence defined by the coordinates in a BED interval 
+       and create a new FASTA entry in the output file for each extracted sequence. By default, 
+       the FASTA header for each extracted sequence will be formatted as follows: 
+       “<chrom>:<start>-<end>”.
        
 Command:
 
