@@ -37,6 +37,8 @@ Delete string characters around each of the numbers in the saffold column.
     
 Use R to determine statistics about the dataset
 
-    See the script: initial_R_dataAnalysisAndFigures.R 
+    See the script: initial_R_dataAnalysisAndFigures.R (Below)
+    
+[initial_R_dataAnalysisAndFigures.R](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/initial_R_dataAnalysisAndFigures.R)
 
 
