@@ -72,7 +72,7 @@ Take this file and test run a MAFFT alignment
 [MAFFTtrial.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/MAFFTtrial.sh)
 
 ________________________________________________________________________________________________________________________________________
-_**I did it again but this time with only the portion of the scaffold that was of interest_**
+**_I did it again but this time with only the portion of the scaffold that was of interest_**
 
 Need to load linuxbrew/colsa so I can use bedtools [getfasta](https://bedtools.readthedocs.io/en/latest/content/tools/getfasta.html) function
 
