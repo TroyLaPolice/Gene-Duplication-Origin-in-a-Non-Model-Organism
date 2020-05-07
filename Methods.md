@@ -11,7 +11,7 @@ Use the Ranitomeya imitator genome found at:
 
 Run BUSCO on the genome and view the {full_table_Ranitomeya_imitator_genome_BUSCO.tsv} file to pull out gene duplications.
 
-    See the script: 
+    See the script: Initial_BUSCO_run_pull_outDups.sh (Below)
 [Initial_BUSCO_run_pull_outDups.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/Initial_BUSCO_run_pull_outDups.sh) 
 
 Pull out only the duplicated genes from the full summary table and concatinate them into a single file
