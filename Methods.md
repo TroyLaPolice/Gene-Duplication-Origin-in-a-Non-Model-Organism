@@ -48,5 +48,8 @@ Used the BUSCO ID and Scaffold from the _full_table_Ranitomeya_imitator_genome_B
 Sampled a gene that was duplicated twice on scaffolds that were far apart in terms of the order they were assembled
 
        # In this case it was on scaffolds 9 and 6848
+       # I need to unwrap the genome inorder to grep the sequence from it
+       
+       awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' imitator.1.3.6.fa > unwrapped_imitator.1.3.6.fa
        
        
