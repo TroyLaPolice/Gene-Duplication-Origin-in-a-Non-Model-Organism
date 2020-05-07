@@ -52,7 +52,8 @@ Sampled a gene that was duplicated twice on scaffolds that were far apart in ter
        
        awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' imitator.1.3.6.fa > unwrapped_imitator.1.3.6.fa
        
-       ****************************************************************************************************************************************
+     
+     ****************************************************************************************************************************************
 This was used to align an entire scaffold which is largely impractical. Don't need to do this, can just pull out the region of interest
 ****************************************************************************************************************************************
        # I pulled out each of the scafold chunks and put them into their own files
