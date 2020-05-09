@@ -90,7 +90,7 @@ Command:
        -bed   ID file that is required with gene coordinates
        #For -bed I pulled out the given beginning and ending coordinates of the gene of interest
 
-See the ID file (bed): id_file.tsv (Below)
+See the ID file (-bed): id_file.tsv (Below)
     
 [id_file.tsv](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/id_file.tsv)
 
@@ -99,6 +99,28 @@ Take the bedtools output fasta file and test run a MAFFT alignment
     See the script: MAFFTtest_regions_of_interest.sh (Below)
     
 [MAFFTtest_regions_of_interest.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/MAFFTtest_regions_of_interest.sh)
+
+**View Alignment Here:** [test_alignment_of_EOG090701ET.aln](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/test_alignment_of_EOG090701ET.aln)
+
+**View on NCBI Alignment Viewer:** [NCBI Alignment View](https://www.ncbi.nlm.nih.gov/projects/msaviewer/?key=phY8y7oUZcG5Slu-mlttuM0omiildtd53XTYXclIzlv_y84R8vfLRqqpH50JPlDLEpsJxxrYPYI3xC7RJNYh2yXoD9QG-TnS,oBA6zbwSY8e_TF24nF1rvssunC6gcNJ_2HLdW8xOy136zcsX9_HOrP7xtcX4IMZbhAufV4xIqxKhVLhBska3S7N4mUSQaa9C)
+________________________________________________________________________________________________________________________________________
+**_I did this a third time but this time I extended the region of interest 3kb in either direction to gather an idea for what is on either side of the gene_**
+
+Need to load linuxbrew/colsa so I can use bedtools [getfasta](https://bedtools.readthedocs.io/en/latest/content/tools/getfasta.html) function
+       
+Command:
+
+       bedtools getfasta -fi genomeFiles/unwrapped_imitator.1.3.6.fa -fo regions_of_interestTEST-3kb.fa -bed id_file-3kb.tsv
+       
+       See the ID file (-bed): id_file.tsv (Below)
+    
+[id_file-3kb.tsv](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/id_file-3kb.tsv)
+
+Take the bedtools output fasta file and test run a MAFFT alignment
+
+    See the script: MAFFTtest_regions_of_interest.sh (Below)
+    
+[MAFFTtest_regions_of_interest-3kb.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/MAFFTtest_regions_of_interest-3kb.sh)
 
 **View Alignment Here:** [test_alignment_of_EOG090701ET.aln](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/test_alignment_of_EOG090701ET.aln)
 
