@@ -122,6 +122,6 @@ Take the bedtools output fasta file and test run a MAFFT alignment
     
 [MAFFTtest_regions_of_interest-3kb.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/MAFFTtest_regions_of_interest-3kb.sh)
 
-**View Alignment Here:** [test_alignment_of_EOG090701ET.aln](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/test_alignment_of_EOG090701ET.aln)
+**View Alignment Here:** [test_alignment_of_EOG090701ET-3kb.aln](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/test_alignment_of_EOG090701ET-3kb.aln)
 
-**View on NCBI Alignment Viewer:** [NCBI Alignment View](https://www.ncbi.nlm.nih.gov/projects/msaviewer/?key=phY8y7oUZcG5Slu-mlttuM0omiildtd53XTYXclIzlv_y84R8vfLRqqpH50JPlDLEpsJxxrYPYI3xC7RJNYh2yXoD9QG-TnS,oBA6zbwSY8e_TF24nF1rvssunC6gcNJ_2HLdW8xOy136zcsX9_HOrP7xtcX4IMZbhAufV4xIqxKhVLhBska3S7N4mUSQaa9C)
+**View on NCBI Alignment Viewer:** [NCBI Alignment View](https://www.ncbi.nlm.nih.gov/projects/msaviewer/?key=1WVPuMlnFrLKOSjN6Sgey75b6xAHTnVBf0x6ZWtwbGNd82wr1a7sSwypRp1GYJR81izNcN5v-TXzc-pm4GHlbOFfy2PCTv1l,xHReqdh2B6PbKDnc-DkP2q9K-gEIX3pQcF11dGRhY3JS4mM62r_jXr0M-DjKMY10zyTUeMdn4D3qe_Nu-Wn8ZPhX0mvbRuRt)
