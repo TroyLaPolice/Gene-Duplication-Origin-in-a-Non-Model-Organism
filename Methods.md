@@ -9,7 +9,7 @@ Use the Ranitomeya imitator genome found at:
 
 ##### Find Duplicates
 
-Run BUSCO on the genome and view the _full_table_Ranitomeya_imitator_genome_BUSCO.tsv_ file to pull out gene duplications.
+Run BUSCO on the genome and view the [full_table_Ranitomeya_imitator_genome_BUSCO.tsv](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/full_table_Ranitomeya_imitator_genome_BUSCO.tsv) file to pull out gene duplications.
 
     See the script: Initial_BUSCO_run_pull_outDups.sh (Below)
    [Initial_BUSCO_run_pull_outDups.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/Initial_BUSCO_run_pull_outDups.sh) 
@@ -20,7 +20,7 @@ Pull out only the duplicated genes from the full summary table and concatinate t
 
 ##### Preliminary Analysis
 
-Open CSV in Excel
+Open BUSCO Output CSV in Excel
 
 Add the column headers in the file as such: 
 
@@ -40,6 +40,8 @@ Use R to determine statistics about the dataset
     See the script: initial_R_dataAnalysisAndFigures.R (Below)
     
 [initial_R_dataAnalysisAndFigures.R](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/initial_R_dataAnalysisAndFigures.R)
+
+View the CSV vith the Number of Deplicates per Contig Here: [duplicates_perContig.csv](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/duplicates_perContig.csv)
 
 ##### Try to do a test alignment with two genes found very far away from each other
 
