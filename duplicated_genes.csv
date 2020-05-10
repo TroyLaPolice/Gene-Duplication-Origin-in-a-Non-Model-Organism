@@ -1,4 +1,4 @@
-Busco id,Status,Scaffold,Start,End,Score,Length
+BUSCO ID,Status,Scaffold,Start,End,Score,Length
 EOG0907002K,Duplicated,192,2542124,2690611,2633,2430
 EOG0907002K,Duplicated,585,561290,772904,2951.2,2453
 EOG0907004F,Duplicated,3450,89043,121112,5062,2167
