@@ -4,7 +4,7 @@
 ### UNH Honors Senior Thesis
 
 
-   Amphibian genomes are notoriously difficult to assemble because of their extremely large size and repetitive content. For this project, I will examine the origin of the repetitive content found in these genomes using the non-model organism, the poison frog Ranitomeya imitator. This study is important because it can help to resolve either the evolutionary history of these bloated genomes or serve to highlight whether the duplicate content found arises from inaccuracies related to the inability of the genome assembly software to process the non-model genomes.
+   Amphibian genomes are notoriously difficult to assemble because of their extremely large size and repetitive content. For this project, I will examine the origin of the repetitive content found in these genomes using the non-model organism, the poison frog _Ranitomeya imitator_. This study is important because it can help to resolve either the evolutionary history of these bloated genomes or serve to highlight whether the duplicate content found arises from inaccuracies related to the inability of the genome assembly software to process the non-model genomes.
   
   I will take a draft _Ranitomeya imitator_ genome, locate the duplicates and align them to each other, checking for matches that could have arisen from systematic error. I will then systematically compare the duplicates to a database of known genes to classify these repeats.
   
