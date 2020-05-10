@@ -1,6 +1,6 @@
-# The METHODS.md file gives a step by step progression of the methods and links back to all the individual files, saying what they all are.
+## The METHODS.md file gives a step by step progression of the methods and links back to all the individual files, saying what they all are.
 
-## Gene Duplication Origin in a Non Model Organism
+# Gene Duplication Origin in a Non Model Organism
 ### UNH Honors Senior Thesis
 
 
