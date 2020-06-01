@@ -131,10 +131,10 @@ Take the bedtools output fasta file and test run a MAFFT alignment
 
 **View on NCBI Alignment Viewer:** [NCBI Alignment View-3kb](https://www.ncbi.nlm.nih.gov/projects/msaviewer/?key=1WVPuMlnFrLKOSjN6Sgey75b6xAHTnVBf0x6ZWtwbGNd82wr1a7sSwypRp1GYJR81izNcN5v-TXzc-pm4GHlbOFfy2PCTv1l,xHReqdh2B6PbKDnc-DkP2q9K-gEIX3pQcF11dGRhY3JS4mM62r_jXr0M-DjKMY10zyTUeMdn4D3qe_Nu-Wn8ZPhX0mvbRuRt)
 
-##### Analyze the depth of the sequencing
+##### Analyze the depth of the sequencing for the Nanopore reads
 
 Run a BWA alignment and use samtools depth to check the depth
 
-    See the script: BWAandDepth.sh (Below)
+    See the script: NanoporeBWAandDepth.sh (Below)
     
-[BWAandDepth.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/BWAandDepth.sh)
+[NanoporeBWAandDepth.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/NanoporeBWAandDepth.sh)
