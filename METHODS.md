@@ -134,7 +134,7 @@ Take the bedtools output fasta file and test run a MAFFT alignment
 ________________________________________________________________________________________________________________________________________
 ________________________________________________________________________________________________________________________________________
 
-### Analyze the depth of the sequencing
+### Analyze the depth of the sequencing:
 
 #### Analyze the depth of the sequencing for the Nanopore reads
 
@@ -151,4 +151,13 @@ Run a BWA alignment and use samtools depth to check the depth
     See the script: IlluminaBWAandDepth.sh (Below)
     
 [IlluminaBWAandDepth.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/IlluminaBWAandDepth.sh)
+
+#### Analyze the depth of the sequencing for the PacBio reads
+
+Run a BWA alignment and use samtools depth to check the depth
+
+    See the script: PacBioBWAandDepth.sh (Below)
+    
+[PacBioBWAandDepth.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/PacBioBWAandDepth.sh)
+
 
