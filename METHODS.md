@@ -160,9 +160,7 @@ Run a BWA alignment and use samtools depth to check the depth
     
 [PacBioBWAandDepth.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/PacBioBWAandDepth.sh)
 
-### Look for over representation:
-
-#### Look for over representation in reads (example: Nanopore)
+### Look for over representation in reads (example: Nanopore)
 
        #Reduce the file to just be the contigs with a depth larger than 8
        awk -v x=8 '$3 >= x'  nanoDepth.tsv > nanoDepthgreaterthan8.tsv
