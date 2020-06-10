@@ -168,7 +168,7 @@ Run a BWA alignment and use samtools depth to check the depth
        #Sort Reduced File
        sort -k 3,3  nanoDepthgreaterthan8.tsv > nanoDepthgreaterthan8SORTED.tsv
        
-### Filter Nanopore data to see if it reduces the crazy over represnetation
+### Filter Nanopore data to see if it reduces the crazy over representation
 
 Run samtools view command to filter
 
@@ -182,11 +182,7 @@ Do it again with different flag and compare filtering ability
       
 [NanoporeFilter-f256.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/NanoporeFilter-f256.sh)
 
-### Filter Nanopore data to see if it reduces the crazy over represnetation
-
-Run samtools view command to filter
-
-       See the script: IlluminaFilter-f4.sh (Below)
+representation
       
 [IlluminaFilter-f4.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/IlluminaFilter-f4.sh)
 
@@ -195,3 +191,17 @@ Do it again with different flag and compare filtering ability
        See the script: IlluminaFilter-f256.sh (Below)
       
 [IlluminaFilter-f256.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/IlluminaFilter-f256.sh)
+
+### Run statistics on the Nanopore data of the new filtered data
+
+Run samtools flagstat command
+
+       See the script: NanoporeFlagstat-f4.sh (Below)
+      
+[NanoporeFlagstat-f4.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/NanoporeFlagstat-f4.sh)
+
+Do it again with different the data from the 256 flag
+
+       See the script: NanoporeFlagstat-f256(Below)
+      
+[NanoporeFlagstat-f256](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/NanoporeFlagstat-f256)
