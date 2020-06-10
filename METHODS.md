@@ -174,10 +174,10 @@ Run samtools view command to filter
 
        See the script: NanoporeFilter-f4.sh (Below)
       
-[NanoporeFilter-f4.sh}(https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/NanoporeFilter-f4.sh)
+[NanoporeFilter-f4.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/NanoporeFilter-f4.sh)
 
 Do it again with different flag and compare filtering ability
 
        See the script: NanoporeFilter-f256.sh (Below)
       
-[NanoporeFilter-f256.sh}(https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/NanoporeFilter-f256.sh)
+[NanoporeFilter-f256.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/NanoporeFilter-f256.sh)
