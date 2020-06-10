@@ -202,6 +202,20 @@ Run samtools flagstat command
 
 Do it again with different the data from the 256 flag
 
-       See the script: NanoporeFlagstat-f256(Below)
+       See the script: NanoporeFlagstat-f256.sh (Below)
       
-[NanoporeFlagstat-f256](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/NanoporeFlagstat-f256)
+[NanoporeFlagstat-f256.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/NanoporeFlagstat-f256)
+
+### Run statistics on the Illumina data of the new filtered data
+
+Run samtools flagstat command
+
+       See the script: IlluminaFlagstat-f4.sh (Below)
+      
+[IlluminaFlagstat-f4.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/IlluminaFlagstat-f4.sh)
+
+Do it again with different the data from the 256 flag
+
+       See the script: IlluminaFlagstat-f256.sh (Below)
+      
+[IlluminaFlagstat-f256.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/IlluminaFlagstat-f256)
