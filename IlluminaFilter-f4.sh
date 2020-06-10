@@ -11,5 +11,4 @@ module load linuxbrew/colsa
 cd /mnt/lustre/macmaneslab/tml1019/seniorThesis/BWAandDepth/Illumina_aligned_reads
 
 #the F filters and the -h keeps the header in the file, this is important for later
-
 samtools view -h -F 4 Illumina.sorted.bam > illumina_reads-F4.sam
