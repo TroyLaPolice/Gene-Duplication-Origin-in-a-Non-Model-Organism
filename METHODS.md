@@ -219,3 +219,20 @@ Do it again with different the data from the 256 flag
        See the script: IlluminaFlagstat-f256.sh (Below)
       
 [IlluminaFlagstat-f256.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/IlluminaFlagstat-f256.sh)
+
+### Run Depth on the filtered sam files (Nanopore)
+
+Run samtools depth command on both files
+
+       See the script: Nanopore_postfilterDepth.sh (Below)
+      
+[Nanopore_postfilterDepth.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/Nanopore_postfilterDepth.sh)
+
+
+### Run Depth on the filtered sam files (Illumina)
+
+Run samtools depth command on both files
+
+       See the script: Illumina_postfilterDepth.sh (Below)
+      
+[Illumina_postfilterDepth.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/Illumina_postfilterDepth.sh)
