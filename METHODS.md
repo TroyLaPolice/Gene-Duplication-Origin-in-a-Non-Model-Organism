@@ -181,3 +181,17 @@ Do it again with different flag and compare filtering ability
        See the script: NanoporeFilter-f256.sh (Below)
       
 [NanoporeFilter-f256.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/NanoporeFilter-f256.sh)
+
+### Filter Nanopore data to see if it reduces the crazy over represnetation
+
+Run samtools view command to filter
+
+       See the script: IlluminaFilter-f4.sh (Below)
+      
+[IlluminaFilter-f4.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/IlluminaFilter-f4.sh)
+
+Do it again with different flag and compare filtering ability
+
+       See the script: IlluminaFilter-f256.sh (Below)
+      
+[IlluminaFilter-f256.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/IlluminaFilter-f256.sh)
