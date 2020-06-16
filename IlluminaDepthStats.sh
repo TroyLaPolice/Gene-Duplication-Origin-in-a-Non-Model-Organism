@@ -19,6 +19,26 @@ echo "DEPTH GREATER OR LESS THAN IS NOW DONE!"
 echo "***************************************"
 
 echo "***************************************"
+echo "STARTING wc -l... "
+echo "***************************************"
+
+echo "STARTING wc -l illumina_reads-Depthlessthan10.tsv"
+wc -l illumina_reads-Depthlessthan10.tsv
+
+echo "STARTING wc -l illumina_reads-Depthgreaterthan10.tsv"
+wc -l illumina_reads-Depthgreaterthan10.tsv
+
+echo "STARTING wc -l illumina_reads-Depthgreaterthan20.tsv"
+wc -l illumina_reads-Depthgreaterthan20.tsv
+
+echo "STARTING wc -l illumina_reads-Depthgreaterthan30.tsv"
+wc -l illumina_reads-Depthgreaterthan30.tsv
+
+echo "***************************************"
+echo "wc -l IS NOW DONE!"
+echo "***************************************"
+
+echo "***************************************"
 echo "STARTING MEAN MEDIAN MODE... "
 echo "***************************************"
 
