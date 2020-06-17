@@ -2,7 +2,7 @@
 #SBATCH --partition=macmanes
 #SBATCH -J illStats
 #SBATCH --output illStats.log
-#SBATCH --mem 115Gb
+#SBATCH --cpus-per-task=40
 source ~/.profile
 
 echo "***************************************"
