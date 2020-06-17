@@ -248,4 +248,7 @@ This is the script I ran for Illumna, I did the Nanopore with the same procedure
 
 I ran another command in a tmux window to sort the file to get the min and the max depth
 
+       sort -k 3,3  IlluminaDepth.tsv > illumina_readsDepthSORTED.tsv
+
+
        
