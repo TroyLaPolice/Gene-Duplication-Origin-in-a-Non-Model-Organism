@@ -236,3 +236,16 @@ Run samtools depth command on both files
        See the script: Illumina_postfilterDepth.sh (Below)
       
 [Illumina_postfilterDepth.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/Illumina_postfilterDepth.sh)
+
+#### I found out the filters didnt seem to do much. So I just proceeded with the regular depth TSV files
+### I then ran some stats to see what the files look like
+
+This is the script I ran for Illumna, I did the Nanopore with the same procedure though it was on the head node instead in a tmux window
+
+       See the script: IlluminaDepthStats.sh (Below)
+      
+[IlluminaDepthStats.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/IlluminaDepthStats.sh)
+
+I ran another command in a tmux window to sort the file to get the min and the max depth
+
+       
