@@ -258,8 +258,12 @@ I initially did it in bash which worked but for larger files it ran out of memor
        
 So I wrote a Python script to do it in a more efficient way and submitted it in a shell script
 
-See the script: IlluminaDepthStats.sh (Below)
+       See the script: IlluminaMeanMedianMode.py (Below)
       
-[IlluminaDepthStats.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/IlluminaDepthStats.sh)
+[IlluminaMeanMedianMode.py](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/IlluminaMeanMedianMode.py)
+
+       See the SHELL script that ran the python code: IlluminaMeanMedianMode.sh (Below)
+      
+[IlluminaMeanMedianMode.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/IlluminaMeanMedianMode.sh)
        
        
