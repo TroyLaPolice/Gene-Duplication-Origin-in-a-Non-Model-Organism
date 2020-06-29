@@ -266,11 +266,15 @@ So I wrote a Python script to do it in a more efficient way and submitted it in 
       
 [IlluminaMeanMedianMode.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/IlluminaMeanMedianMode.sh)
 
-## Finding the depth at and around the duplicated region
+## Finding the depth at and around the duplicated region:
 
 I wrote a Python script to return to me a TSV that shows the depth at and around the duplicated region
 
        See the script: depthAtDuplicatedRegionsHumanReadable.py  (Below)
       
 [depthAtDuplicatedRegionsHumanReadable.py](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/depthAtDuplicatedRegionsHumanReadable.py)
+
+       See the SHELL script that ran the python code: depthAtDuplicatedRegionsHumanReadable.sh  (Below)
+      
+[depthAtDuplicatedRegionsHumanReadable.py](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/depthAtDuplicatedRegionsHumanReadable.sh)
        
