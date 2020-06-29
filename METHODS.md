@@ -250,13 +250,13 @@ I ran another command in a tmux window to sort the file to get the min and the m
 
        sort -k 3,3  IlluminaDepth.tsv > illumina_readsDepthSORTED.tsv
 
-### I wrote a script to calculate summary stats for the depth file
+### I wrote a script to calculate summary stats for the depth files
 
 I initially did it in bash which worked but for larger files it ran out of memory and it took a long time to run.
 
        awk '{sum+=$3;a[x++]=$3;b[$3]++}b[$3]>Mode{Mode=$3}END{print "Mean: " sum/x "\nMedian: "a[int((x-1)/2)]"\nMode: " Mode}' nanopore_readsDepth.tsv > median_output_nanopore_readsDepth.tsv
        
-So I wrote a Python script to do it in a more efficient way and submitted it in a shell script
+So I wrote a Python script to do it in a more efficient way and submitted it in a shell script (Below is an example of this for the Illumina data set)
 
        See the script: IlluminaMeanMedianMode.py (Below)
       
