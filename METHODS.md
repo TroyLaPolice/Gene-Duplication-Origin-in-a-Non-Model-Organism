@@ -276,5 +276,5 @@ I wrote a Python script to return to me a TSV that shows the depth at and around
 
        See the SHELL script that ran the python code: depthAtDuplicatedRegionsHumanReadable.sh  (Below)
       
-[depthAtDuplicatedRegionsHumanReadable.py](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/depthAtDuplicatedRegionsHumanReadable.sh)
+[depthAtDuplicatedRegionsHumanReadable.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/depthAtDuplicatedRegionsHumanReadable.sh)
        
