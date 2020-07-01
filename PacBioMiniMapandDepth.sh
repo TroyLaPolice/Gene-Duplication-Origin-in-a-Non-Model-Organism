@@ -13,8 +13,6 @@ READS="/mnt/lustre/macmaneslab/ams1236/imitator_genome/reads/PacBio_reads.fa"
 module purge
 module load linuxbrew/colsa
 
-echo Running BWA on $ASSEMBLY
-
 cd /mnt/lustre/macmaneslab/tml1019/seniorThesis/BWAandDepth/PacBio_aligned_reads
 
 minimap2 -x map-pb -I50g -N 10 -a -t 40 $ASSEMBLY $READS | samtools view -Sb - | samtools sort -T PacBio -O bam -@40 -l9 -m2G -o PacBioMiniMap.sorted.bam -
