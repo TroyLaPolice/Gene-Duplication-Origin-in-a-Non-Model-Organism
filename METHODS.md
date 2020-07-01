@@ -266,6 +266,19 @@ So I wrote a Python script to do it in a more efficient way and submitted it in 
       
 [IlluminaMeanMedianMode.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/IlluminaMeanMedianMode.sh)
 
+## Replacing BWA with MiniMap:
+
+For the long read files I chose to use MiniMaP instead of BWA becuase it was stuggling with PacBio and potentially was truncating the alignment file 
+
+       See the PacBio script: PacBioMiniMapandDepth.sh  (Below)
+       
+[PacBioMiniMapandDepth.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/PacBioMiniMapandDepth.sh)
+
+       See the Nanopore script: NanoporeMiniMapandDepth.sh  (Below)
+       
+[NanoporeMiniMapandDepth.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/NanoporeMiniMapandDepth.sh)
+
+
 ## Finding the depth at and around the duplicated region:
 
 I wrote a Python script to return to me a TSV that shows the depth at and around the duplicated region
