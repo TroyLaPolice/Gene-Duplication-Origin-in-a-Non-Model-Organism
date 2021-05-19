@@ -602,4 +602,4 @@ Using files and folders made from previous steps
 [RunningHapSolo.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/RunningHapSolo.sh)
 
 
-## There were many other failed attempts at scripts and reworking the HapSolo pipeline to fit with our data. These are the scripts that mostly worked.
+#### There were many other failed attempts at scripts and reworking the HapSolo pipeline to fit with our data. These are the scripts that mostly worked.
