@@ -542,3 +542,23 @@ with open("BUSCO4_duplicated.tsv", "r") as duplicatedGenes:
 ```
 
 We then calculated sliding window statistics for the data using an [R script that we ran on the cluster](https://github.com/AdamStuckert/Ranitomeya_imitator_genome/blob/master/GenomeAssembly/scripts/BUSCO4_Dups.R). The results of this script were then used to compare orthologs present in single copies and duplicated copies in a [subsequent R script which we ran locally](https://github.com/AdamStuckert/Ranitomeya_imitator_genome/blob/master/GenomeAssembly/scripts/GenomeDuplicates.Rmd).
+
+# Running HapSolo:
+### HapSolo (Solares et al. 2021) was developed to remove uncollapsed heterozygosity
+
+#### Pre-Processing
+
+Run the unmodified pre-processing script as found below
+    
+[HapSoloGitHub](https://github.com/esolares/HapSolo/blob/main/hapsolo.py)
+
+#### Run a BUSCO Array Job a modified version of the provided script
+
+This script was a modified version of the provided script
+
+    See the script: BUSCOarrayjob_1.sh (Below)
+    
+[BUSCOarrayjob_1.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/BUSCOarrayjob_1.sh)
+
+#### This was run 7 more times to account for the whole genome as it was too large for only one job. The number on line 11 was incremented by 10,000 each script. 
+       The first script is the file above. Line 11 on the next file read: *contigNum=$(( $SLURM_ARRAY_TASK_ID + 10001 ))* and so on
