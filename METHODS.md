@@ -591,3 +591,15 @@ The first script is the file above. Line 11 on the next file read:
        contigNum=$(( $SLURM_ARRAY_TASK_ID + 10001 ))
    
 and so on....
+
+
+#### Run HapSolo
+
+Using files and folders made from previous steps
+
+    See the script: RunningHapSolo.sh (Below)
+    
+[RunningHapSolo.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/RunningHapSolo.sh)
+
+
+## There were many other failed attempts at scripts and reworking the HapSolo pipeline to fit with our data. These are the scripts that mostly worked.
