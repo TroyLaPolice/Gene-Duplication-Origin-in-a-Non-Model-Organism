@@ -291,7 +291,7 @@ I wrote a Python script to return to me a TSV that shows the depth at and around
       
 [depthAtDuplicatedRegionsHumanReadable.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/depthAtDuplicatedRegionsHumanReadable.sh)
 
-### The next section was written up into a Repo for Publishing:
+# The next section was written up into a Repo for Publishing:
 ## It is as follows:
 
 ### Analyses of duplicated orthologs
