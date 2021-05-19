@@ -561,6 +561,9 @@ This script was a modified version of the provided script
 [BUSCOarrayjob_1.sh](https://github.com/TroyLaPolice/Gene-Duplication-Origin-in-a-Non-Model-Organism/blob/master/BUSCOarrayjob_1.sh)
 
 #### This was run 7 more times to account for the whole genome as it was too large for only one job. The number on line 11 was incremented by 10,000 each script. 
-       The first script is the file above. Line 11 on the next file read:
-   *contigNum=$(( $SLURM_ARRAY_TASK_ID + 10001 ))* 
-       and so on....
+
+The first script is the file above. Line 11 on the next file read:
+       
+       contigNum=$(( $SLURM_ARRAY_TASK_ID + 10001 ))
+   
+and so on....
